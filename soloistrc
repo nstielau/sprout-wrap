@@ -20,12 +20,12 @@ recipes:
 - pivotal_workstation::git_scripts
 
 # development (rails)
-- pivotal_workstation::rvm
+#- pivotal_workstation::rvm
 - pivotal_workstation::gem_setup
-- pivotal_workstation::mysql
-- pivotal_workstation::postgres
-- sprout-osx-apps::imagemagick
-- sprout-osx-apps::node_js
+#- pivotal_workstation::mysql
+#- pivotal_workstation::postgres
+#- sprout-osx-apps::imagemagick
+#- sprout-osx-apps::node_js
 - pivotal_workstation::qt
 
 # apps
