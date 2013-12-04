@@ -24,6 +24,8 @@ recipes:
 - pivotal_workstation::gem_setup
 
 # apps
+- sprout-osx-apps::python
+- sprout-osx-apps::python_path
 - pivotal_workstation::screen_sharing_app
 - sprout-osx-apps::1password
 - sprout-osx-apps::sublime_text
