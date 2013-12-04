@@ -22,10 +22,11 @@ recipes:
 # development (rails)
 #- pivotal_workstation::rvm
 - pivotal_workstation::gem_setup
-- pivotal_workstation::qt
 
 # apps
 - pivotal_workstation::screen_sharing_app
+- sprout-osx-apps::1password
+- sprout-osx-apps::sublime_text
 - sprout-osx-apps::skype
 - sprout-osx-apps::shiftit
 - sprout-osx-apps::chrome
