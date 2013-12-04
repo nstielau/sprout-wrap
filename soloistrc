@@ -41,7 +41,20 @@ recipes:
 - sprout-osx-apps::vagrant
 
 node_attributes:
+  workspace_directory: Documents
   git_projects:
     -
       - sprout-wrap
       - https://github.com/pivotal-sprout/sprout-wrap.git
+    -
+      - sensu/sensu-community-plugins
+      - git@github.com:sensu/sensu-community-plugins.git
+    -
+      - sensu/sensu
+      - git@github.com:sensu/sensu.git
+    -
+      - sensu/sensu-plugin
+      - git@github.com:sensu/sensu-plugin.git
+    -
+      - sensu/sensu-dashboard
+      - git@github.com:sensu/sensu-dashboard.git
